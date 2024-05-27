@@ -1,0 +1,28 @@
+---
+import Mockup from '../assets/mockup_hero.svg';
+import Button from '../components/Button.astro';
+---
+
+
+<div class="px-[112px] flex flex-row h-[538px] items-center justify-around">
+    <div class="flex flex-col">
+
+        <div class="pb-12">
+            <h3 class="text-primary font-bold text-5xl">Conheça o app</h3>
+            <h1 class="text-primary font-extrabold text-7xl">CooPartilhar</h1>
+        </div>
+
+        <h3 class="text-fontColor font-semibold text-2xl pb-6">O que é o CooPartilhar?</h3>
+        <p class="text-fontColor font-normal text-start max-w-[700px] text-lg pb-6">
+            O CooPartilhar é um aplicativo desenvolvido pela renomada comunidade Flutterando em colaboração com o Banricoop, uma cooperativa de crédito dedicada ao bem-estar de seus cooperados. Criado para oferecer suporte financeiro ágil e eficiente, o aplicativo ajuda membros da cooperativa que enfrentam dificuldades devido às enchentes no Rio Grande do Sul.
+        </p>
+
+        <Button title='Baixe o app' className='w-[329px] h-12'>
+          
+        </Button>
+    </div>
+
+    <div>
+        <img src={Mockup.src} alt="Mockup" class=""/>
+    </div>
+</div>
