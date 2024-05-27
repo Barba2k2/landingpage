@@ -1,3 +1,10 @@
 ---
+interface Props {
+    title: string;
+    className?: string;
+}
 
+const { title } = Astro.props;
 ---
+
+<button type="button" class={`w-[122px] h-[38px] bg-primary text-white rounded-md font-bold`}>{title}</button>
