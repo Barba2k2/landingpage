@@ -1,0 +1,43 @@
+---
+import MockupStep from "../../assets/mockup_step.png";
+import Step from "../Step.astro";
+---
+
+<div class="bg-primary px-[112px] py-20">
+  <div class="min-h-fit flex flex-row items-center justify-around">
+    <div class="flex flex-col gap-11">
+      <h1 class="text-2xl text-white font-bold">VEJA COMO FUNCIONA O COOPARTILHAR</h1>
+      <Step
+        number="1"
+        title="Baixe o aplicativo CooPartilhar:"
+        description="Primeiro, faça o download do aplicativo CooPartilhar na loja de aplicativos do seu dispositivo móvel."
+      />
+      <Step
+        number="2"
+        title="Cadastre-se:"
+        description="Ao abrir o aplicativo, siga as instruções para se cadastrar. Preencha seus dados pessoais e crie uma conta."
+      />
+      <Step
+        number="3"
+        title="Escolha entre Ajudar ou Quero ser ajudado:"
+        description="Após o cadastro, escolha se deseja oferecer ajuda a outros cooperados ou se precisa de ajuda financeira."
+      />
+      <Step
+        number="4"
+        title="Apadrinhe ou Solicite Ajuda:"
+        description="Se escolher ajudar, apadrinhe um cooperado no aplicativo. Se precisar de ajuda, faça uma solicitação de apoio financeiro."
+      />
+      <Step
+        number="5"
+        title="Aguarde a aprovação:"
+        description="Depois de fazer sua solicitação, aguarde a análise e aprovação do seu pedido pela instituição promotora."
+      />
+      <Step
+        number="6"
+        title="Receba o apoio:"
+        description="Uma vez aprovada a sua solicitação, o recurso financeiro solicitado será disponibilizado na conta bancária cadastrada no aplicativo."
+      />
+    </div>
+    <img src={MockupStep.src} alt="" class="w-96 rotate-6" />
+  </div>
+</div>
