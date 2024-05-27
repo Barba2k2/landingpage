@@ -1,14 +1,15 @@
 ---
-import Features from '../components/Features.astro';
-import Header from '../components/Header.astro';
-import Hero from '../components/Hero.astro';
-import Layout from '../layouts/Layout.astro';
+import Features from "../components/sections/Features.astro";
+import Header from "../components/sections/Header.astro";
+import Hero from "../components/sections/Hero.astro";
+import StepByStep from "../components/sections/StepByStep.astro";
+import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Coopartilhar">
-	<Header />
-	<div class="h-14 w-full">
-	</div>
-	<Hero />
-	<Features />
+  <Header />
+  <div class="h-14 w-full"></div>
+  <Hero />
+  <Features />
+  <StepByStep />
 </Layout>
