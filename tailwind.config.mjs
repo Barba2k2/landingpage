@@ -10,6 +10,7 @@ export default {
         fontColor: "#555555",
         primary: "#129166",
         secondary: "#84CC6D",
+        secondaryFontColor: "#505051",
       },
     },
   },
