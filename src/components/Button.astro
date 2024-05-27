@@ -4,7 +4,7 @@ interface Props {
     className?: string;
 }
 
-const { title } = Astro.props;
+const { title, className } = Astro.props;
 ---
 
-<button type="button" class={`w-[122px] h-[38px] bg-primary text-white rounded-md font-bold`}>{title}</button>
+<button type="button" class={`w-[122px] h-[38px] bg-primary text-white rounded-md font-bold ${className}`}>{title}</button>
