@@ -9,7 +9,9 @@ const { title, description, number } = Astro.props;
 ---
 
 <div class="flex flex-row text-white gap-3 max-w-[608px] justify-center">
-  <div class="border-4 px-6 py-4 text-xl border-secondary rounded-lg font-normal h-fit">{number}</div>
+  <div class="flex flex-col justify-center">
+    <div class="border-4 px-6 py-4 text-xl border-secondary rounded-lg font-normal h-fit">{number}</div>
+  </div>
   <div class="flex flex-col">
     <h2 class="text-xl font-bold">{title}</h2>
     <p class="text-sm">{description}</p>
