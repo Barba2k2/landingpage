@@ -5,12 +5,14 @@ export default {
 		extend: {
 			fontFamily: {
 				'sans': ['Inter', 'sans-serif'],
+			},
+			colors: {
+				'fontColor': '#555555',
+				'primary': '#129166',
+
 			}
 		},
-		colors: {
-			'fontColor': '#555555',
-			'primary': '#129166',
-		}
+
 	},
 	plugins: [],
 }
