@@ -9,7 +9,7 @@ export default {
 			colors: {
 				'fontColor': '#555555',
 				'primary': '#129166',
-
+				'bg-secondary': '#84CC6D',
 			}
 		},
 
