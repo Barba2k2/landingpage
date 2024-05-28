@@ -1,15 +1,32 @@
 ---
-import Apple from "../../assets/icons/apple.svg";
-import Google from "../../assets/icons/google.svg";
+import AppStore from "../../assets/icons/apple.svg";
+import GoogleStore from "../../assets/icons/google.svg";
+import LogoGreen from "../../assets/icons/logo_green.svg";
+import Button from "../../components/Button.astro";
 ---
 
-<div class="h-80 w-full flex flex-col gap-10 items-center pt-14 pb-16">
-  <p class="max-w-[910px] text-xl text-fontColor text-center">
-    O CooPartilhar é, portanto, uma ferramenta essencial para promover a cooperação e o apoio mútuo dentro do Banricoop,
-    garantindo que todos os seus membros possam superar momentos difíceis com o respaldo de sua comunidade.
-  </p>
-  <div class="flex flex-row gap-6 items-center">
-    <img src={Google.src} alt="Google download" />
-    <img src={Apple.src} alt="Apple download" />
+<div
+  class="h-[820px] w-full flex flex-row  items-center justify-around pt-14 pb-16"
+>
+  <div class="flex flex-col justify-center items-center gap-9">
+    <img src={LogoGreen.src} alt="Logo com fundo verde" />
+    <div class="flex flex-col justify-center items-center">
+      <h3 class="text-fontColor font-normal text-2xl">Baixe o app</h3>
+      <p class="text-fontColor font-normal text-lg w-72 text-center">
+        E participe de uma comunidade feita de cooperados para cooperados.
+      </p>
+    </div>
+    <div class="flex flex-col gap-4">
+      <img src={AppStore.src} alt="" />
+      <img src={GoogleStore.src} alt="" />
+    </div>
   </div>
+
+  <div class="w-[800px] h-[410px] bg-primary rounded-xl items-start flex flex-col justify-center pl-14 gap-10">
+     <div class="flex flex-col gap-3">
+      <h1 class="font-bold text-white text-4xl">Sobre o CooPartilhar</h1>
+      <p class="font-medium text-white text-md w-[600px]">O CooPartilhar é um aplicativo desenvolvido pela renomada comunidade Flutterando em colaboração com o Banricoop, uma cooperativa de crédito dedicada ao bem-estar de seus cooperados. Criado para oferecer suporte financeiro ágil e eficiente, o aplicativo ajuda membros da cooperativa que enfrentam dificuldades devido às enchentes no Rio Grande do Sul.</p>
+     </div>
+      <Button title="Saiba mais" className="bg-white !text-primary" />
+    </div>
 </div>
