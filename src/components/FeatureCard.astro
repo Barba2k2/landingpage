@@ -8,7 +8,9 @@ interface Props {
 const { icon, title, description } = Astro.props;
 ---
 
-<div class="max-w-[314px] w-[314px] max-h-60 h-60 bg-white rounded-md flex flex-col items-center p-4 gap-3">
+<div
+  class="max-w-[314px] w-[314px] min-h-60 md:min-h-72 lg:min-h-60 bg-white rounded-md flex flex-col justify-center items-center p-4 gap-3"
+>
   <img src={icon} alt={title} />
   <h3 class="text-xl font-semibold text-fontColor">{title}</h3>
   <p class="text-sm text-center text-secondaryFontColor">{description}</p>
