@@ -5,9 +5,10 @@ import BenefitCard from "../BenefitCard.astro";
 ---
 
 <div
-  class="pt-3 px-6 lg:px-0 w-full min-h-[680px] flex flex-col md:flex-row items-center justify-around bg-left-bottom bg-no-repeat bg-opacity-10"
-  style={`background-image: url(${Back.src}); background-size: 80% 496px;`}
+  class="pt-3 px-6 lg:px-0 w-full min-h-[680px] flex flex-col md:flex-row items-center justify-around md:bg-left-bottom bg-no-repeat md:bg-contain bg-auto bg-opacity-10"
+  style={`background-image: url(${Back.src}); `} 
 >
+<!-- background-size: 80% 496px; -->
   <img src={Cell.src} alt="" class="h-[685px]" />
   <div class="flex flex-col gap-6">
     <h2 class="font-bold text-fontColor text-2xl uppercase">Benefícios do CooPartilhar</h2>

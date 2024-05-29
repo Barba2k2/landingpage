@@ -4,7 +4,7 @@ import MockupStep from "../../assets/mockup_step.png";
 import Step from "../Step.astro";
 ---
 
-<div class="bg-primary py-20 rounded-2xl px-6 md:px-6">
+<div class="bg-primary py-20 rounded-2xl px-6 md:px-6 lg:px-0 bg-no-repeat bg-bottom bg-auto md:bg-right " style={`background-image: url(${LogoBack.src}); `} id="como-funciona">
   <div class="min-h-fit flex flex-col md:flex-row overflow-hidden relative items-center justify-around lg:pl-28">
     <div class="flex flex-col gap-16 md:gap-3 lg:gap-10 py-12 md:py-0">
       <h1 class="text-3xl md:text-4xl text-white text-center md:text-start font-bold md:pb-12">
@@ -42,6 +42,6 @@ import Step from "../Step.astro";
       />
     </div>
     <img src={MockupStep.src} alt="" class="w-80 rotate-6 z-50" />
-    <img src={LogoBack.src} alt="" class="absolute -right-2" />
+  <!--   <img src={LogoBack.src} alt="" class="absolute -right-2" /> -->
   </div>
 </div>
