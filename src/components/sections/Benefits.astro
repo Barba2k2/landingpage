@@ -5,13 +5,18 @@ import BenefitCard from "../BenefitCard.astro";
 ---
 
 <div
-  class="pt-3 px-6 lg:px-0 w-full min-h-[680px] flex flex-col md:flex-row items-center justify-around md:bg-left-bottom bg-no-repeat md:bg-contain bg-auto bg-opacity-10"
+  class="pt-24 px-6 lg:px-0 w-full min-h-[680px] flex flex-col md:flex-row items-center justify-around md:bg-left-bottom bg-no-repeat md:bg-contain bg-auto bg-opacity-10"
   style={`background-image: url(${Back.src}); `}
 >
   <!-- background-size: 80% 496px; -->
   <img src={Cell.src} alt="" class="h-[685px]" />
-  <div class="flex flex-col gap-6">
-    <h2 class="font-bold text-fontColor text-2xl uppercase">Benefícios do CooPartilhar</h2>
+  <div class="flex flex-col gap-6 pt-20">
+    <h2
+      class="font-bold text-fontColor text-center md:text-start text-xl md:text-3xl lg:text-4xl whitespace-pre-line md:whitespace-normal"
+    >
+      Benefícios
+      <span class="text-2xl md:text-3xl lg:text-4xl">do CooPartilhar</span>
+    </h2>
     <BenefitCard
       title="Rapidez e Eficiência"
       description="O CooPartilhar simplifica o processo de solicitação de ajuda financeira, permitindo que os cooperados recebam o suporte necessário de forma rápida e eficiente."
@@ -21,12 +26,12 @@ import BenefitCard from "../BenefitCard.astro";
       description="Incentiva a solidariedade entre os cooperados, permitindo que membros em condições mais estáveis ofereçam suporte àqueles em necessidade."
     />
     <BenefitCard
-      title="Rapidez e Eficiência"
-      description="O CooPartilhar simplifica o processo de solicitação de ajuda financeira, permitindo que os cooperados recebam o suporte necessário de forma rápida e eficiente."
+      title="Apoio Contínuo"
+      description="Oferece acompanhamento contínuo das solicitações e possibilita novos pedidos de ajuda, desde que a prestação de contas seja devidamente cumprida."
     />
     <BenefitCard
-      title="Rapidez e Eficiência"
-      description="O CooPartilhar simplifica o processo de solicitação de ajuda financeira, permitindo que os cooperados recebam o suporte necessário de forma rápida e eficiente."
+      title="Transparência"
+      description="O aplicativo mantém um registro claro e detalhado de todas as solicitações e justificativas, promovendo confiança e integridade entre os membros da cooperativa."
     />
   </div>
 </div>
