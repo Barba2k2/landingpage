@@ -1,0 +1,221 @@
+---
+import Bubble from "../assets/bubble.svg";
+import Button from "../components/Button.astro";
+import Footer from "../components/sections/Footer.astro";
+import Header from "../components/sections/Header.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Termos de uso">
+  <Header />
+  <div class="flex flex-col justify-center items-center pt-24 px-4 md:px-0">
+    <div class="max-w-[623px] w-full">
+      <h1 class="font-extrabold text-primary text-3xl md:text-5xl whitespace-pre-line">Termos de uso App</h1>
+      <h1 class="font-extrabold text-primary text-3xl md:text-5xl whitespace-pre-line">CooPartilhar</h1>
+    </div>
+    <div class="flex flex-col gap-6 py-12 max-w-[623px] text-base md:text-lg font-normal text-fontColor">
+      <h1 class="text-xl md:text-2xl font-semibold">1. Informações Iniciais</h1>
+      <img src={Bubble.src} alt="" class="absolute right-64 top-96" />
+      <div class="space-y-6 pl-10">
+        <p class="inline-flex gap-2">
+          1.1. <span class="list-item list-none">
+            O presente documento dispõe sobre as condições de uso do Aplicativo CooPartilhar: os direitos, as
+            obrigações, bem como a forma como serão tratados os dados coletados.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          1.2. <span class="list-item list-none">
+            Na continuidade do acesso ao aplicativo, o Cooperado expressamente aceita e concorda com todo o disposto
+            neste documento, razão pela qual deve ser realizada a leitura atenta e, em havendo discordância ou dúvidas,
+            o Cooperado não deverá prosseguir com a utilização do aplicativo.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          1.3. <span class="list-item list-none">
+            Todo o recurso disponível é proveniente do Fundo de Recursos para Situação de Calamidade Banricoop, devendo
+            atender na íntegra o regulamento do referido fundo.
+          </span>
+        </p>
+      </div>
+
+      <h1 class="text-xl md:text-2xl font-semibold">2. Objetivo do aplicativo CooPartilhar</h1>
+      <p class="inline-flex gap-2 pl-10">
+        2.1. <span class="list-item list-none">
+          O Aplicativo CooPartilhar foi criado para auxiliar na gestão de recursos e doações, bem como para viabilizar o
+          direcionamento destes recursos e doações às famílias de Cooperados impactados pela situação de calamidade
+          pública.
+        </span>
+      </p>
+      <p class="inline-flex gap-2 pl-10">
+        2.2. <span class="list-item list-none">
+          O cadastro no aplicativo será dividido entre Cooperados atingidos e Cooperados “padrinhos”, visto que haverá o
+          apoio na gestão de recursos e doações pelo Cooperado “padrinho”.
+        </span>
+      </p>
+      <p class="inline-flex gap-2 pl-10">
+        2.3. <span class="list-item list-none">
+          Os Cooperados atingidos deverão realizar o seu cadastro no aplicativo CooPartilhar, indicando a sua situação e
+          necessidades, além do preenchimento dos demais dados necessários para sua identificação e localização.
+        </span>
+      </p>
+      <p class="inline-flex gap-2 pl-10">
+        2.4. <span class="list-item list-none">
+          Os Cooperados “padrinhos”, deverão realizar o seu cadastro no aplicativo calamidade, indicando a sua
+          disponibilidade de apoio, além do preenchimento dos demais dados necessários para sua identificação e
+          localização.
+        </span>
+      </p>
+      <h1 class="text-xl md:text-2xl font-semibold">3. Das Obrigações do Cooperado “Padrinho”</h1>
+      <div class="space-y-6 pl-10">
+        <p class="inline-flex gap-2">
+          3.1. <span class="list-item list-none">
+            O Cooperado “Padrinho” escolherá um Cooperado atingido que esteja próximo da sua residência, de forma que
+            tenha condições de realizar contato presencial quando necessário, em especial para entrega de doações.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          3.2. <span class="list-item list-none">
+            Será responsável por gerir os recursos e doações, recebendo aportes financeiros em sua conta bancária,
+            direcionando para o Cooperado atingido que foi previamente escolhido.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          3.3. <span class="list-item list-none">
+            A utilização dos recursos aprovados pelo aplicativo CooPartilhar, ensejarão a apresentação de prestação de
+            contas.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          3.4. <span class="list-item list-none">
+            Na hipótese de recebimento dos valores para aquisição de bens e/ou produtos para doação ao Cooperado
+            atingido e ocorra a sobra de valores, o Cooperado “padrinho” está obrigado a restituir ao Fundo de Recursos
+            para Situação de Calamidade, conforme dados a serem divulgados no aplicativo Calamidade, devendo encaminhar
+            o comprovante de restituição pelo próprio aplicativo.
+          </span>
+        </p>
+      </div>
+      <h1 class="text-xl md:text-2xl font-semibold">4. Das Obrigações do Cooperado Atingido</h1>
+      <div class="space-y-6 pl-10">
+        <p class="inline-flex gap-2">
+          4.1. <span class="list-item list-none">
+            O Cooperado atingido indicará quais as suas necessidades principais, apresentando o maior número de
+            informações possíveis para que possa ser apoiado por um Cooperado “Padrinho”.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          4.2. <span class="list-item list-none">
+            O Cooperado atingido deve considerar que os recursos disponíveis são limitados, conforme informação
+            disponível no aplicativo CooPartilhar.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          4.3. <span class="list-item list-none">
+            O Cooperado atingido será auxiliado pelo Cooperado “Padrinho” que se disponibilizar, sendo que poderá o
+            Cooperado sendo que ambos deverão concordar com o “apadrinhamento”. Ao aceitar, o Cooperado atingido aceita
+            que os recursos sejam disponibilizados na conta corrente do Cooperado “Padrinho”, para que este providencie
+            as aquisições de bens, mediante posterior prestação de contas.
+          </span>
+        </p>
+      </div>
+      <h1 class="text-xl md:text-2xl font-semibold">5. Das condições de uso</h1>
+      <div class="space-y-6 pl-10">
+        <p class="inline-flex gap-2">
+          5.1. <span class="list-item list-none">
+            Quando do acesso ao aplicativo, algumas informações ou arquivos podem ser armazenados por meio de cookies
+            com o objetivo de traçar métricas e identificar eventuais fragilidades a fim de evitar fraudes, mapear
+            problemas e erros das páginas.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          5.2. <span class="list-item list-none">
+            A responsabilidade cível e criminal que possa decorrer da interação feita nos espaços abertos permitidos
+            pelos Usuários são de sua inteira responsabilidade, isentando a Banricoop de forma irrevogável e
+            irretratável.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          5.3. <span class="list-item list-none">
+            Os Cooperados estão cientes de que o seu usuário e senha são sigilosos e de sua exclusiva responsabilidade,
+            devendo mantê-los em sigilo e segurança, não fornecendo a terceiros, sendo o único responsável caso ocorra a
+            divulgação a terceiros que gerem prejuízos.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          5.4. <span class="list-item list-none">
+            Ao acessar o aplicativo, o Cooperado compromete-se a não utilizar o sistema de modo que:
+          </span>
+          <div class="pl-20">
+            I - Contrarie de qualquer forma a lei e as condições de uso determinadas; <br /> II - Contenha informações falsas,
+            ofensivas, contra a ordem ou que incentivem a prática de qualquer crime, inclusive a discriminação e o preconceito
+            de raça, cor, religião ou ideologia política; <br /> III - Haja palavras, termos, expressões, imagens, figuras,
+            símbolos ou fotos obscenos ou pornográficos; <br /> IV - Contenha vírus, programas ou códigos que possam danificar
+            dados, impedindo o uso normal da rede, do sistema ou dos equipamentos de terceiros; <br />
+            V - Viole ou ameace os direitos e os interesses de terceiros e da Banricoop;  <br /> VI - Contenha dados ou informações
+            que possam causar danos, deteriorar, inutilizar ou sobrecarregar o site ou prejudicar a disponibilização dos
+            produtos ou a prestação dos serviços e as informações disponibilizadas, impedindo sua utilização normal por outros
+            usuários; <br /> VII - Falsifique, tente ocultar identidade ou autoria ou, ainda, responsabilizar terceiros inocentes.
+          </div>
+        </p>
+        <p class="inline-flex gap-2">
+          5.5. <span class="list-item list-none">
+            A Banricoop não se responsabiliza por quaisquer danos que possam ser causados pelo aplicativo, nem por
+            falhas técnicas ou indisponibilidades.
+          </span>
+        </p>
+      </div>
+      <h1 class="text-xl md:text-2xl font-semibold">6. Dos dados e Política de Privacidade de Dados</h1>
+      <div class="space-y-6 pl-10">
+        <p class="inline-flex gap-2">
+          6.1. <span class="list-item list-none">
+            Para viabilizar a utilização do aplicativo CooPartilhar, poderão ser coletados dados cadastrais, tais como
+            nome, data de nascimento, RG, CPF e/ou outros documentos que permitam a identificação conforme o caso (Ex:
+            CNH, Passaporte, Carteira de Identidade Profissional, etc.), endereço residencial e comercial, telefone,
+            e-mail, profissão/ocupação, estado civil, nacionalidade, naturalidade, condição de Pessoa Politicamente
+            exposta, entre outros. Além disso, podem ser coletados dados sensíveis, conforme eventuais solicitações
+            realizadas diretamente no aplicativo.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          6.2. <span class="list-item list-none">
+            Os dados serão coletados para viabilizar a realização do objetivo principal do aplicativo CooPartilhar, que
+            é auxiliar os Cooperados atingidos, com o apoio dos Cooperados “Padrinhos”.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          6.3. <span class="list-item list-none">
+            Poderão ser compartilhados os dados para cumprir exigências de órgãos reguladores ou quando for
+            imprescindível para o funcionamento do aplicativo e/ou para permitir a entrega das doações e recursos.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          6.4. <span class="list-item list-none">
+            Os Cooperados usuários do aplicativo CooPartilhar devem realizar a leitura em
+            https://banricoop.coop.br/a-banricoop/governanca/politicas-e-publicacoes/ dos termos da Política de
+            Privacidade e Proteção de Dados da Banricoop e, prosseguindo com o seu cadastro no aplicativo CooPartilhar,
+            considera-se a aceitação expressa.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          6.5. <span class="list-item list-none">
+            O tratamento dos dados pessoais é de suma importância e condição estritamente necessária para que possamos
+            prestar serviços e disponibilizar nossos produtos. Caso seja necessário, estamos à disposição para prestar
+            esclarecimentos por meio de nossos canais de relacionamento.
+          </span>
+        </p>
+        <p class="inline-flex gap-2">
+          6.6. <span class="list-item list-none">
+            Após a leitura da Política, caso ainda persistirem dúvidas, reclamações, é direito relacionado aos dados
+            pessoais se comunicar conosco sobre este assunto. Neste sentido, entre em contato por meio de nossos canais
+            de relacionamento ou contate o Encarregado de Tratamento de Dados Pessoais - profissional indicado pela
+            Banricoop para atuar como elo de comunicação entre a Cooperativa, os titulares dos dados e a Autoridade
+            Nacional de Proteção de Dados (ANPD) - pelo e-mail dpo@banricoop.coop.br.
+          </span>
+        </p>
+      </div>
+      <div class="flex flex-row justify-center">
+        <a href="#sobre"> <Button title="Baixe o app" className="w-[280px] md:w-[329px] h-12" /></a>
+      </div>
+    </div>
+  </div>
+  <Footer />
+</Layout>
