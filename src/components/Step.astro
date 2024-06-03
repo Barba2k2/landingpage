@@ -10,10 +10,14 @@ const { title, description, number } = Astro.props;
 
 <div class="flex flex-row text-white gap-3 max-w-[608px] justify-center">
   <div class="flex flex-col justify-center">
-    <div class="h-16 w-16 text-2xl bg-[#0C9667]  rounded-lg font-normal  font-staatliches shadow-md items-center justify-center flex">{number}</div>
+    <div
+      class="h-16 w-16 text-2xl bg-[#0C9667] rounded-lg font-normal font-staatliches shadow-md items-center justify-center flex"
+    >
+      {number}
+    </div>
   </div>
   <div class="flex flex-col">
-    <h2 class="text-xl font-bold">{title}</h2>
-    <p class="text-sm">{description}</p>
+    <h2 class="text-lg md:text-xl font-bold">{title}</h2>
+    <p class="text-sm lg:text-base">{description}</p>
   </div>
 </div>

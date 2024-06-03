@@ -4,8 +4,10 @@ import Button from "../Button.astro";
 ---
 
 <div class="h-[64px] w-full flex flex-row md:px-4 lg:px-[112px] md:justify-between justify-center">
-  <img src={Logo.src} alt="Logo coopartilhar" class="p-2" />
-  <div class="md:flex flex-row items-center gap-[32px] hidden">
+  <a href="/">
+    <img src={Logo.src} alt="Logo coopartilhar" class="p-2 h-full" />
+  </a>
+  <div class="md:flex flex-row items-center gap-4 lg:gap-8 hidden">
     <a href="#sobre" class="text-fontColor text-lg font-bold hover:text-primary">Sobre</a>
     <a href="#como-funciona" class="text-fontColor text-lg font-bold ml-4 hover:text-primary">Como Funciona</a>
     <a href="/TermsOfUse" class="text-fontColor text-lg font-bold ml-4 hover:text-primary">Termos de uso</a>
