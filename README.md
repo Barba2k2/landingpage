@@ -1,9 +1,9 @@
-<center>
+<div align="center">
 <img src="https://raw.githubusercontent.com/AdryanneKelly/coopartilhar-landing/2ed540f5901af3b53372da52168a2ec4fdc2c605/src/assets/icons/favicon.svg">
 
 # CooPartilhar
 
-</center>
+</div>
 
 Criado para oferecer suporte financeiro ágil e eficiente, o aplicativo ajuda membros da cooperativa que enfrentam
 dificuldades devido às enchentes no Rio Grande do Sul.
