@@ -14,6 +14,8 @@ dificuldades devido às enchentes no Rio Grande do Sul.
 
 ![just-the-basics](https://github.com/CooPartilhar/landingpage/blob/main/screens/image.png?raw=true)
 
+![second_section](https://github.com/CooPartilhar/landingpage/blob/main/screens/benefits.png)
+
 ## 🚀 Estrutura
 
 Neste projeto você encontrará as seguintes pastas e arquivos base:
